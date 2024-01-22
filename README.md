@@ -9,7 +9,8 @@
 * sequence diagram
 * ![sequence](https://github.com/chansol1604/project_Ai_ad/assets/58240527/2bf76bbb-0b2e-463c-9976-38c57e8883a2)
 * class diagram
-* ![class](https://github.com/chansol1604/project_Ai_ad/assets/58240527/f28adaf5-7d79-4487-8ff9-003d8ae4076a)
+* ![class](https://github.com/chansol1604/project_Ai_ad/assets/58240527/74669d7e-e842-4d16-bed4-ce95ea4bcdeb)
+
 
   
 ## Clone code
