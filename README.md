@@ -7,13 +7,13 @@
 ## High Level Design
 
 * usecase
-* ![usecase](https://github.com/chansol1604/project_Ai_ad/assets/58240527/169f2348-a2bc-4239-9a77-68047309c2d1)
+  ![usecase](https://github.com/chansol1604/project_Ai_ad/assets/58240527/169f2348-a2bc-4239-9a77-68047309c2d1)
   
 * sequence diagram
-* ![sequence](https://github.com/chansol1604/project_Ai_ad/assets/58240527/2bf76bbb-0b2e-463c-9976-38c57e8883a2)
+ ![sequence](https://github.com/chansol1604/project_Ai_ad/assets/58240527/2bf76bbb-0b2e-463c-9976-38c57e8883a2)
   
 * class diagram
-* ![class](https://github.com/chansol1604/project_Ai_ad/assets/58240527/74669d7e-e842-4d16-bed4-ce95ea4bcdeb)
+  ![class](https://github.com/chansol1604/project_Ai_ad/assets/58240527/74669d7e-e842-4d16-bed4-ce95ea4bcdeb)
 
 
   
