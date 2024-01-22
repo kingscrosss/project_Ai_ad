@@ -1,11 +1,17 @@
 # Project ABC
 
-* (간략히 프로젝트를 설명하고, 최종 목표가 무엇인지에 대해 기술)
+* 맞춤형 음료 추천, 광고 시스템
+* 1. 사람의 성별, 나이, 표정을 인식한 뒤, 추천 AI를 이용해 그에 맞는 음료의 광고를 추천해 준다.
+  2. 광고를 보는 사람의 시선을 트래킹한 뒤 광고를 끝까지 시청하면 광고에 나온 음료를 권해준다.
 
 ## High Level Design
 
-* (프로젝트 아키텍쳐 기술, 전반적인 diagram 으로 설명을 권장)
+* sequence diagram
+* ![sequence](https://github.com/chansol1604/project_Ai_ad/assets/58240527/2bf76bbb-0b2e-463c-9976-38c57e8883a2)
+* class diagram
+* ![class](https://github.com/chansol1604/project_Ai_ad/assets/58240527/f28adaf5-7d79-4487-8ff9-003d8ae4076a)
 
+  
 ## Clone code
 
 * (각 팀에서 프로젝트를 위해 생성한 repository에 대한 code clone 방법에 대해서 기술)
