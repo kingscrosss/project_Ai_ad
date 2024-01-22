@@ -10,7 +10,8 @@
 * ![usecase](https://github.com/chansol1604/project_Ai_ad/assets/58240527/f5529809-8fd7-4167-b8d0-16dc07491c0a)
 
 * sequence diagram
-* ![sequence](https://github.com/chansol1604/project_Ai_ad/assets/58240527/196fd55d-57ad-47c0-95eb-393910e8a95f)
+* ![sequence](https://github.com/chansol1604/project_Ai_ad/assets/58240527/91651f74-5f6e-4bb2-a9ee-ec11fae0d8ae)
+
 
 * class diagram
 * ![class](https://github.com/chansol1604/project_Ai_ad/assets/58240527/fa44133e-3252-4b91-83bc-3efd578f59bd)
