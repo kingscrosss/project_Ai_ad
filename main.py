@@ -8,7 +8,7 @@ sys.path.append('/home/jetson/work/project_Ai_ad/YYB')
 from face_detection import detection
 
 
-serial_port = '/dev/ttyACM12'  # 시리얼 포트명, window의 경우 장치관리자에 들어가서 com으로 변경
+serial_port = '/dev/ttyACM0'  # 시리얼 포트명, window의 경우 장치관리자에 들어가서 com으로 변경
 baud_rate = 115200  # 통신 속도 (bps)
 
 # 시리얼 포트 열기
