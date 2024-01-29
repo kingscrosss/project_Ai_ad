@@ -14,7 +14,7 @@ import tensorflow as tf
 from tensorflow.keras import layers
 
 
-abalone_Full = pd.read_csv("./Datasets_02.csv", 
+abalone_Full = pd.read_csv("/home/jetson/work/project_Ai_ad/YYB/Proj_ADR_01/Datasets_02.csv", 
                             names=["Sex", "Age", "Bvrg"])
 
 abalone_Full["Sex"] = abalone_Full["Sex"].map({"남": 1, "여": 2},
@@ -81,11 +81,9 @@ model.fit(abalone_features_T, abalone_labels_T,
 
 
 
-
-
 ####################
 
-abalone_Full = pd.read_csv("./Datasets_01.csv", 
+abalone_Full = pd.read_csv("/home/jetson/work/project_Ai_ad/YYB/Proj_ADR_01/Datasets_01.csv", 
                             names=["Sex", "Age", "Bvrg"])
 
 abalone_Full["Sex"] = abalone_Full["Sex"].map({"남": 1, "여": 2},
