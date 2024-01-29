@@ -7,7 +7,7 @@
 ## High Level Design
 
 * usecase
-* ![usecase](https://github.com/chansol1604/project_Ai_ad/assets/58240527/f5529809-8fd7-4167-b8d0-16dc07491c0a)
+* ![offline customized advertising usecase](https://github.com/chansol1604/project_Ai_ad/assets/145517821/0781a8a6-a40d-484f-965e-cf2484a0370a)
 
 * sequence diagram
 * ![sequence](https://github.com/chansol1604/project_Ai_ad/assets/58240527/91651f74-5f6e-4bb2-a9ee-ec11fae0d8ae)
