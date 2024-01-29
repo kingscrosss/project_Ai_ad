@@ -59,13 +59,20 @@ python3 main.py
 
 
 ## Appendix
-
-* (참고 자료 및 알아두어야할 사항들 기술)
   0. 데이터셋
    - 김혜경. "연령과 성별에 따른 음식 기호도 조사." (2004).
-   - 
+     
   1. AI 모델
      - 연령, 성별, 감정 인식 모델: 참고 래거시 코드 추가
      - 연령, 성별에 따른 음료 추천 모델: 자체 학습 모델 개발, *********** 폴더 경로 추가 ***************
+     - 아이트래킹:
+       1) 홍채 원 검출 알고리즘
+       https://www.researchgate.net/profile/Kwanggi-Kim/publication/264147873_A_Novel_Circle_Detection_Algorithm_for_Iris_Segmentation/links/5418cc630cf203f155adb6bf/A-Novel-Circle-Detection-Algorithm-for-Iris-Segmentation.pdf
+      2) opencv로 얼굴 랜드마크 활용하기
+       https://velog.io/@mjkiim_0217/OpenCV-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%96%BC%EA%B5%B4%EC%9D%B8%EC%8B%9D-%EC%96%B4%EB%85%B8%EC%9E%89-%EC%98%A4%EB%A0%8C%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0
+      3) 동공 검출 알고리즘
+       https://towardsdatascience.com/real-time-eye-tracking-using-opencv-and-dlib-b504ca724ac6
+       https://towardsdatascience.com/real-time-eye-tracking-using-opencv-and-dlib-b504ca724ac6
 
   2. USB to Serial in Linux
+     
