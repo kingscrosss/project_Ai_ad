@@ -17,7 +17,7 @@ import serial
 ## 얼굴 검출기 초기화
 detector = dlib.get_frontal_face_detector()
 # 얼굴 및 눈 검출을 위한 dlib의 face landmark predictor 로딩
-predictor_path = 'shape_predictor_68_face_landmarks.dat'
+predictor_path = './eye_tracking/shape_predictor_68_face_landmarks.dat'
 predictor = dlib.shape_predictor(predictor_path)
 
 # 웹캠 열기
@@ -28,7 +28,8 @@ left_eye_center_queue = []
 right_eye_center_queue = []
 queue_size = 5  # 큐 크기
 
-def eye_tracking():
+def eye_tracking():    
+    global eye_check
     # 프레임 읽기
     ret, frame = cap.read()
     # 그레이스케일 변환
@@ -97,27 +98,36 @@ def eye_tracking():
 
         # 보정된 눈동자 중심 좌표 출력
         print(f'Left Eye Center: {left_eye_center_smoothed},  Right Eye Center: {right_eye_center_smoothed}')
-        if 260 <= left_eye_center_smoothed[0] <= 310:
-            eye_check=1
-        else :
-            eye_check=0
+        if 305 <= left_eye_center_smoothed[0] <= 330:   # 모니터 양끝을 보고 값 측정해서 조절 필요
+            eye_check = 1
+        else:
+            eye_check = 0
         
     return eye_check
 
+
 while True:    
     data_to_send = [0, 0]       # 아이트래킹 결과값, 제공음료 번호
+    count = 0
     eye_count = 0
+    eye_checking = 0
 
-    for i in range(5):
-        eye_check=eye_tracking()    # 스레드로 돌려서 5초??마다 한 번씩 확인    
-        print(eye_check)
-        if eye_check==1:
-            eye_count += 1
-        sleep(5)
+    # for i in range(5):
+    eye_checking = eye_tracking()    # 스레드로 돌려서 5초??마다 한 번씩 확인    
+    print(count+1, eye_checking)
+    if eye_checking == 1:
+        eye_count += 1
+    sleep(1)
     
-    if eye_count >= 3:
-        data_to_send[0] = 1
-    else: data_to_send[0] = 0
+    count += 1
+    # if eye_count >= 3:
+    #     data_to_send[0] = 1
+    # else:
+    #     data_to_send[0] = 0
+        
+    # print("result:", data_to_send[0])
+    
+    # break
 
     # ser.write(data_to_send)
     # ser.close()
