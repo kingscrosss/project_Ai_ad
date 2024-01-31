@@ -5,7 +5,7 @@ import subprocess
 def detection():
     file_path = '/home/jetson/intel/open_model_zoo/demos/build/aarch64/Release/interactive_face_detection_demo'
 
-    run_argument= ['-i', '1', '-m', '/home/jetson/intel/open_model_zoo/demos/interactive_face_detection_demo/cpp/intel/face-detection-adas-0001/FP16/face-detection-adas-0001.xml', 
+    run_argument= ['-i', '0', '-m', '/home/jetson/intel/open_model_zoo/demos/interactive_face_detection_demo/cpp/intel/face-detection-adas-0001/FP16/face-detection-adas-0001.xml', 
                 '--mag', '/home/jetson/intel/open_model_zoo/demos/interactive_face_detection_demo/cpp/intel/age-gender-recognition-retail-0013/FP16/age-gender-recognition-retail-0013.xml',
                 '--mhp', '/home/jetson/intel/open_model_zoo/demos/interactive_face_detection_demo/cpp/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml', 
                 '--mem', '/home/jetson/intel/open_model_zoo/demos/interactive_face_detection_demo/cpp/intel/emotions-recognition-retail-0003/FP16/emotions-recognition-retail-0003.xml', 
